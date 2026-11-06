@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "frontend/src/app/app.html"
+        ],
+        "createdAt": "2026-11-04T23:07:15.917Z",
+        "reason": "Angular template uses [src] bindings to existing local assets and API product image URLs; static scanner cannot resolve bound src attributes."
+      }
+    ]
+  }
+}

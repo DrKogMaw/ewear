@@ -1,0 +1,14 @@
+work/
+outputs/
+.impeccable/review/
+.impeccable/hook.cache.json
+.env
+.env.*
+!.env.example
+frontend/node_modules/
+frontend/.angular/
+frontend/dist/
+backend/bin/
+backend/obj/
+backend/ewear.db*
+backend/uploads/

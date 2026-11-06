@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T23:16:07.198710+00:00",
+  "title": "Design System: Ewear",
+  "extensions": {
+    "colorMeta": {
+      "peach": {
+        "role": "primary",
+        "displayName": "Peach",
+        "canonical": "#FFD3AC",
+        "tonalRamp": [
+          "color-mix(in oklch, #FFD3AC 65%, black)",
+          "color-mix(in oklch, #FFD3AC 80%, black)",
+          "color-mix(in oklch, #FFD3AC 90%, black)",
+          "color-mix(in oklch, #FFD3AC 100%, black)",
+          "color-mix(in oklch, #FFD3AC 100%, white)",
+          "color-mix(in oklch, #FFD3AC 70%, white)",
+          "color-mix(in oklch, #FFD3AC 40%, white)",
+          "color-mix(in oklch, #FFD3AC 15%, white)"
+        ]
+      },
+      "blush": {
+        "role": "secondary",
+        "displayName": "Blush",
+        "canonical": "#FFB5AB",
+        "tonalRamp": [
+          "color-mix(in oklch, #FFB5AB 65%, black)",
+          "color-mix(in oklch, #FFB5AB 80%, black)",
+          "color-mix(in oklch, #FFB5AB 90%, black)",
+          "color-mix(in oklch, #FFB5AB 100%, black)",
+          "color-mix(in oklch, #FFB5AB 100%, white)",
+          "color-mix(in oklch, #FFB5AB 70%, white)",
+          "color-mix(in oklch, #FFB5AB 40%, white)",
+          "color-mix(in oklch, #FFB5AB 15%, white)"
+        ]
+      },
+      "clay": {
+        "role": "secondary",
+        "displayName": "Clay",
+        "canonical": "#E39A7B",
+        "tonalRamp": [
+          "color-mix(in oklch, #E39A7B 65%, black)",
+          "color-mix(in oklch, #E39A7B 80%, black)",
+          "color-mix(in oklch, #E39A7B 90%, black)",
+          "color-mix(in oklch, #E39A7B 100%, black)",
+          "color-mix(in oklch, #E39A7B 100%, white)",
+          "color-mix(in oklch, #E39A7B 70%, white)",
+          "color-mix(in oklch, #E39A7B 40%, white)",
+          "color-mix(in oklch, #E39A7B 15%, white)"
+        ]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Gold",
+        "canonical": "#DBB06B",
+        "tonalRamp": [
+          "color-mix(in oklch, #DBB06B 65%, black)",
+          "color-mix(in oklch, #DBB06B 80%, black)",
+          "color-mix(in oklch, #DBB06B 90%, black)",
+          "color-mix(in oklch, #DBB06B 100%, black)",
+          "color-mix(in oklch, #DBB06B 100%, white)",
+          "color-mix(in oklch, #DBB06B 70%, white)",
+          "color-mix(in oklch, #DBB06B 40%, white)",
+          "color-mix(in oklch, #DBB06B 15%, white)"
+        ]
+      },
+      "espresso": {
+        "role": "neutral",
+        "displayName": "Espresso",
+        "canonical": "#3B2924",
+        "tonalRamp": [
+          "color-mix(in oklch, #3B2924 65%, black)",
+          "color-mix(in oklch, #3B2924 80%, black)",
+          "color-mix(in oklch, #3B2924 90%, black)",
+          "color-mix(in oklch, #3B2924 100%, black)",
+          "color-mix(in oklch, #3B2924 100%, white)",
+          "color-mix(in oklch, #3B2924 70%, white)",
+          "color-mix(in oklch, #3B2924 40%, white)",
+          "color-mix(in oklch, #3B2924 15%, white)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#35251E",
+        "tonalRamp": [
+          "color-mix(in oklch, #35251E 65%, black)",
+          "color-mix(in oklch, #35251E 80%, black)",
+          "color-mix(in oklch, #35251E 90%, black)",
+          "color-mix(in oklch, #35251E 100%, black)",
+          "color-mix(in oklch, #35251E 100%, white)",
+          "color-mix(in oklch, #35251E 70%, white)",
+          "color-mix(in oklch, #35251E 40%, white)",
+          "color-mix(in oklch, #35251E 15%, white)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "canonical": "#FFF8F2",
+        "tonalRamp": [
+          "color-mix(in oklch, #FFF8F2 65%, black)",
+          "color-mix(in oklch, #FFF8F2 80%, black)",
+          "color-mix(in oklch, #FFF8F2 90%, black)",
+          "color-mix(in oklch, #FFF8F2 100%, black)",
+          "color-mix(in oklch, #FFF8F2 100%, white)",
+          "color-mix(in oklch, #FFF8F2 70%, white)",
+          "color-mix(in oklch, #FFF8F2 40%, white)",
+          "color-mix(in oklch, #FFF8F2 15%, white)"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#65483C",
+        "tonalRamp": [
+          "color-mix(in oklch, #65483C 65%, black)",
+          "color-mix(in oklch, #65483C 80%, black)",
+          "color-mix(in oklch, #65483C 90%, black)",
+          "color-mix(in oklch, #65483C 100%, black)",
+          "color-mix(in oklch, #65483C 100%, white)",
+          "color-mix(in oklch, #65483C 70%, white)",
+          "color-mix(in oklch, #65483C 40%, white)",
+          "color-mix(in oklch, #65483C 15%, white)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#D9AE9E",
+        "tonalRamp": [
+          "color-mix(in oklch, #D9AE9E 65%, black)",
+          "color-mix(in oklch, #D9AE9E 80%, black)",
+          "color-mix(in oklch, #D9AE9E 90%, black)",
+          "color-mix(in oklch, #D9AE9E 100%, black)",
+          "color-mix(in oklch, #D9AE9E 100%, white)",
+          "color-mix(in oklch, #D9AE9E 70%, white)",
+          "color-mix(in oklch, #D9AE9E 40%, white)",
+          "color-mix(in oklch, #D9AE9E 15%, white)"
+        ]
+      },
+      "field-line": {
+        "role": "neutral",
+        "displayName": "Field Line",
+        "canonical": "#BB8D79",
+        "tonalRamp": [
+          "color-mix(in oklch, #BB8D79 65%, black)",
+          "color-mix(in oklch, #BB8D79 80%, black)",
+          "color-mix(in oklch, #BB8D79 90%, black)",
+          "color-mix(in oklch, #BB8D79 100%, black)",
+          "color-mix(in oklch, #BB8D79 100%, white)",
+          "color-mix(in oklch, #BB8D79 70%, white)",
+          "color-mix(in oklch, #BB8D79 40%, white)",
+          "color-mix(in oklch, #BB8D79 15%, white)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "canonical": "#8D3028",
+        "tonalRamp": [
+          "color-mix(in oklch, #8D3028 65%, black)",
+          "color-mix(in oklch, #8D3028 80%, black)",
+          "color-mix(in oklch, #8D3028 90%, black)",
+          "color-mix(in oklch, #8D3028 100%, black)",
+          "color-mix(in oklch, #8D3028 100%, white)",
+          "color-mix(in oklch, #8D3028 70%, white)",
+          "color-mix(in oklch, #8D3028 40%, white)",
+          "color-mix(in oklch, #8D3028 15%, white)"
+        ]
+      },
+      "success": {
+        "role": "semantic",
+        "displayName": "Success",
+        "canonical": "#226347",
+        "tonalRamp": [
+          "color-mix(in oklch, #226347 65%, black)",
+          "color-mix(in oklch, #226347 80%, black)",
+          "color-mix(in oklch, #226347 90%, black)",
+          "color-mix(in oklch, #226347 100%, black)",
+          "color-mix(in oklch, #226347 100%, white)",
+          "color-mix(in oklch, #226347 70%, white)",
+          "color-mix(in oklch, #226347 40%, white)",
+          "color-mix(in oklch, #226347 15%, white)"
+        ]
+      },
+      "dark-canvas": {
+        "role": "neutral",
+        "displayName": "Dark Canvas",
+        "canonical": "#251F1C",
+        "tonalRamp": [
+          "color-mix(in oklch, #251F1C 65%, black)",
+          "color-mix(in oklch, #251F1C 80%, black)",
+          "color-mix(in oklch, #251F1C 90%, black)",
+          "color-mix(in oklch, #251F1C 100%, black)",
+          "color-mix(in oklch, #251F1C 100%, white)",
+          "color-mix(in oklch, #251F1C 70%, white)",
+          "color-mix(in oklch, #251F1C 40%, white)",
+          "color-mix(in oklch, #251F1C 15%, white)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "canonical": "#EADCD0",
+        "tonalRamp": [
+          "color-mix(in oklch, #EADCD0 65%, black)",
+          "color-mix(in oklch, #EADCD0 80%, black)",
+          "color-mix(in oklch, #EADCD0 90%, black)",
+          "color-mix(in oklch, #EADCD0 100%, black)",
+          "color-mix(in oklch, #EADCD0 100%, white)",
+          "color-mix(in oklch, #EADCD0 70%, white)",
+          "color-mix(in oklch, #EADCD0 40%, white)",
+          "color-mix(in oklch, #EADCD0 15%, white)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Single-family hero headline with a bold second phrase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Collection section heading."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Product name."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Hero and editorial supporting copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Control and small editorial labeling."
+      }
+    },
+    "shadows": [
+      {
+        "name": "drawer",
+        "value": "-20px 0 60px rgba(0,0,0,.13)",
+        "purpose": "Right-side cart and staff panels."
+      },
+      {
+        "name": "dialog",
+        "value": "0 24px 75px rgba(0,0,0,.16)",
+        "purpose": "Account dialog."
+      },
+      {
+        "name": "mobile-menu",
+        "value": "0 15px 25px rgba(0,0,0,.08)",
+        "purpose": "Expanded mobile navigation."
+      },
+      {
+        "name": "toast",
+        "value": "0 10px 30px rgba(0,0,0,.15)",
+        "purpose": "Temporary feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background .25s ease, transform .25s ease",
+        "purpose": "Primary button hover."
+      },
+      {
+        "name": "image-hover",
+        "value": "transform .7s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Product image scale on card hover."
+      },
+      {
+        "name": "drawer-entry",
+        "value": "drawer-in .3s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Right-side drawer entrance."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation-duration: .01ms; transition-duration: .01ms",
+        "purpose": "Reduced-motion override."
+      },
+      {
+        "name": "add-confirmation",
+        "value": "toast-in .28s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Brief bag confirmation that leaves the collection visible."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "navigation-collapse",
+        "value": "850px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-hero",
+      "description": "Two-part hero action with an espresso label and a gold arrow; blush hover moves the arrow diagonally.",
+      "html": "<a class=\"ds-primary\" href=\"#collection\"><span>Explore the collection</span><span class=\"ds-primary-arrow\" aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-primary { display:inline-flex; align-items:center; min-height:60px; border:1px solid #3B2924; background:#3B2924; color:#FFF8F2; font:700 15px \"DM Sans\",sans-serif; text-decoration:none; transition:transform .2s ease; } .ds-primary > span:first-child { padding:0 24px; } .ds-primary-arrow { display:grid; place-items:center; width:60px; height:60px; background:#DBB06B; color:#35251E; font-size:23px; transition:background .24s ease,transform .32s ease; } .ds-primary:hover { transform:translateY(-3px); } .ds-primary:hover .ds-primary-arrow { background:#FFB5AB; } .ds-primary:focus-visible { outline:3px solid #9B563F; outline-offset:3px; }"
+    },
+    {
+      "name": "Quick Add",
+      "kind": "button",
+      "refersTo": "button-quick-add",
+      "description": "Always-visible product action with green added state; the bag stays closed.",
+      "html": "<button class=\"ds-quick-add\">Add to bag <span aria-hidden=\"true\">+</span></button>",
+      "css": ".ds-quick-add { display:flex; align-items:center; justify-content:space-between; width:270px; min-height:48px; padding:0 16px; border:0; border-radius:0; background:rgba(255,211,172,.97); color:#35251E; font:700 14px \"DM Sans\",sans-serif; cursor:pointer; transition:background .25s ease; } .ds-quick-add span { font-size:22px; font-weight:400; line-height:1; } .ds-quick-add:hover { background:#FFB5AB; } .ds-quick-add:focus-visible { outline:2px solid #9B563F; outline-offset:3px; } .ds-quick-add.ds-added { background:#226347; border-color:#226347; color:#fff; } .ds-quick-add:active { transform:translateY(2px); }"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Square, lightly ruled field used in account and staff forms.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-phone\">Phone number</label><input class=\"ds-field\" id=\"ds-phone\" type=\"tel\" placeholder=\"+15551234567\">",
+      "css": ".ds-field-label { display:block; margin-bottom:9px; color:#35251E; font:700 14px \"DM Sans\",sans-serif; } .ds-field { width:280px; min-height:48px; padding:11px 13px; border:1px solid #BB8D79; border-radius:0; background:#fff; color:#3B2924; font:400 16px \"DM Sans\",sans-serif; } .ds-field:focus { border-color:#9B563F; outline:none; } .ds-field:focus-visible { outline:2px solid #9B563F; outline-offset:3px; }"
+    },
+    {
+      "name": "Main Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Editorial category labels share a fine baseline; the current selection has a stronger underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><button aria-current=\"page\">Shop all</button><button>Shirts</button><button>Pants</button><button>Boots</button></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; gap:36px; border-bottom:1px solid rgba(53,37,30,.3); } .ds-nav button { position:relative; min-height:48px; padding:0 0 2px; border:0; background:none; color:#4A3128; font:600 15px \"DM Sans\",sans-serif; cursor:pointer; transition:color .22s ease,transform .22s ease; } .ds-nav button::after { content:''; position:absolute; left:0; right:0; bottom:-1px; height:3px; background:#3B2924; transform:scaleX(0); transform-origin:left; transition:transform .3s ease; } .ds-nav button[aria-current=\"page\"] { font-weight:700; } .ds-nav button[aria-current=\"page\"]::after, .ds-nav button:hover::after { transform:scaleX(1); } .ds-nav button:hover { transform:translateY(-2px); } .ds-nav button:focus-visible { outline:3px solid #9B563F; outline-offset:3px; }"
+    },
+    {
+      "name": "Category Tabs",
+      "kind": "chip",
+      "refersTo": "category-tab",
+      "description": "Underlined filter controls above the collection grid.",
+      "html": "<div class=\"ds-tabs\" role=\"group\" aria-label=\"Filter products\"><button class=\"ds-active\" aria-pressed=\"true\">All</button><button aria-pressed=\"false\">Shirts</button><button aria-pressed=\"false\">Pants</button><button aria-pressed=\"false\">Boots</button></div>",
+      "css": ".ds-tabs { display:flex; gap:8px; border-bottom:1px solid #D9AE9E; } .ds-tabs button { margin-bottom:-1px; padding:0 17px 16px; border:0; border-bottom:2px solid transparent; background:none; color:#65483C; font:600 15px \"DM Sans\",sans-serif; cursor:pointer; } .ds-tabs button:first-child { padding-left:0; } .ds-tabs button.ds-active { color:#3B2924; border-bottom-color:#3B2924; } .ds-tabs button:hover { color:#3B2924; } .ds-tabs button:focus-visible { outline:2px solid #9B563F; outline-offset:3px; }"
+    },
+    {
+      "name": "Featured Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Small blush editorial label at the upper left of featured photos.",
+      "html": "<span class=\"ds-tag\">Ewear edit</span>",
+      "css": ".ds-tag { display:inline-block; padding:9px 11px; border-radius:0; background:#FFB5AB; color:#35251E; font:700 11px \"DM Sans\",sans-serif; letter-spacing:.13em; text-transform:uppercase; }"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Tall borderless merchandise tile with visible quick add and compact product information.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-image\"><span class=\"ds-card-tag\">Ewear edit</span><button class=\"ds-card-add\">Add to bag <span aria-hidden=\"true\">+</span></button></div><div class=\"ds-card-info\"><div><h3>The Everyday Shirt</h3><p>Ivory · Shirts</p></div><strong>$68</strong></div></article>",
+      "css": ".ds-card { width:270px; color:#35251E; font-family:\"DM Sans\",sans-serif; } .ds-card-image { position:relative; aspect-ratio:.81; overflow:hidden; background:#FFD3AC; } .ds-card-tag { position:absolute; top:18px; left:18px; padding:9px 11px; background:#FFB5AB; font-size:11px; font-weight:700; letter-spacing:.13em; text-transform:uppercase; } .ds-card-add { position:absolute; left:12px; right:12px; bottom:12px; display:flex; align-items:center; justify-content:space-between; min-height:48px; padding:0 16px; border:0; background:rgba(255,211,172,.97); color:#35251E; font:700 14px \"DM Sans\",sans-serif; cursor:pointer; } .ds-card-add span { font-size:22px; font-weight:400; } .ds-card-add:hover { background:#FFB5AB; } .ds-card-add:focus-visible { outline:2px solid #9B563F; outline-offset:3px; } .ds-card-info { display:flex; justify-content:space-between; gap:20px; padding:17px 2px 0; } .ds-card-info h3 { margin:0 0 5px; font-size:17px; font-weight:600; } .ds-card-info p { margin:0; color:#65483C; font-size:14px; } .ds-card-info strong { font-size:16px; font-weight:600; }"
+    },
+    {
+      "name": "Shopping Bag Drawer",
+      "kind": "custom",
+      "refersTo": "bag-drawer",
+      "description": "Warm canvas side panel opened by an explicit bag action.",
+      "html": "<section class=\"ds-drawer\" aria-label=\"Shopping bag\"><header><div><small>Your bag</small><h2>0 pieces</h2></div><button aria-label=\"Close bag\">×</button></header><div class=\"ds-drawer-empty\"><h3>Your bag is waiting.</h3><p>Find something that feels like you.</p></div></section>",
+      "css": ".ds-drawer { display:flex; flex-direction:column; width:320px; min-height:360px; background:#FFF8F2; color:#35251E; box-shadow:-20px 0 60px rgba(0,0,0,.13); font-family:\"DM Sans\",sans-serif; } .ds-drawer header { background:#FFD3AC; display:flex; justify-content:space-between; padding:34px 32px 27px; border-bottom:1px solid #DFBBA7; } .ds-drawer small { color:#65483C; font-size:10px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; } .ds-drawer h2 { margin:9px 0 0; font-size:28px; font-weight:500; letter-spacing:-.03em; } .ds-drawer header button { align-self:start; border:0; background:none; color:#35251E; font-size:29px; line-height:1; cursor:pointer; } .ds-drawer header button:hover { color:#8F503F; } .ds-drawer header button:focus-visible { outline:2px solid #9B563F; outline-offset:3px; } .ds-drawer-empty { display:flex; flex:1; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:30px; } .ds-drawer-empty h3 { margin:0 0 5px; font:600 30px \"DM Sans\",sans-serif; } .ds-drawer-empty p { margin:0; color:#65483C; font-size:14px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sunlit Wardrobe",
+    "overview": "Ewear presents everyday shirts, pants, and boots as a considered fashion edit. Natural photography stays prominent while peach, blush, clay, and gold warm the interface. The two-part espresso and gold hero action directs attention into the collection. DM Sans carries every text role, and the dark theme remains quiet and warm.",
+    "keyCharacteristics": [
+      "Sunlit photography framed by warm peach surfaces.",
+      "Four confirmed brand colors with semantic green success and red error states.",
+      "Two-part hero action with a gold arrow and purposeful hover motion.",
+      "One sans-serif family with distinct size and weight steps.",
+      "Visible product actions and non-interrupting feedback."
+    ],
+    "rules": [
+      {
+        "name": "The Photo Leads Rule",
+        "body": "Keep product and lifestyle photographs untinted; place the palette around them and in controls.",
+        "section": "colors"
+      },
+      {
+        "name": "The Layered Only When Open Rule",
+        "body": "Keep resting product cards flat; reserve shadows for active overlays and feedback.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Single Family Rule",
+        "body": "Use DM Sans throughout. Differentiate emphasis with weight, scale, and spacing.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use the supplied peach, blush, clay, and gold in their established roles.",
+      "Do keep dark ink over light brand colors and preserve readable contrast.",
+      "Do keep product images large and add actions visible.",
+      "Do preserve keyboard focus and reduced-motion behavior.",
+      "Do confirm cart additions in place and let shoppers open the bag when ready."
+    ],
+    "donts": [
+      "Don't tint the product photography to force a color match.",
+      "Don't add rounded cards or shadows to resting product cards.",
+      "Don't hide the add action until hover.",
+      "Don't open the bag automatically after adding an item."
+    ]
+  }
+}
